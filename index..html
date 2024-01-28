@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,126 +15,205 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <h3 class="nav-title">Ma<span class="text-primary"r<span></span>y</h3>
-            <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Survices</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><button class="btn-primary">Hore me</button></li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <div class="banner-content">
-                <h1 class="banner-greetting">Hi, I'm</h1>
-                <h2 class="banner-title">Jakiya Akter</h2>
-                <p class="banner-description">I am a front-end developer.I will convert:figma to html/xd to html/psd to html.</p>
-                <button class="btn-primary"><i class="fa-solid fa-download"></i>Download CV</button>
-                <button class="btn-primary"><i class="fa-solid fa-phone"></i>Contact</button>
+    <nav class="navbar bg-body-tertiary navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fs-1 fw-bold" href="#">Ja<span class="text-primary">k</span>iya</a>
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <img class="Portfolio-picture" src="IMAGE/main.jpg" alt="">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">RESUME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PAGES</a>
+                  </li>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary">Download Resume</button>
+            </div>
+          </div>
         </div>
-    </header>
-    <main>
-        <section class="About">
-            <h3 class="section-title">About Me</h3>
-            <p class="section-description">Hello,I am Jakiya Akter,I am a web developer with 3 years of experience in Html,css,javaScript,bootstrap.I am always delover poject on time.I will give 100% effort to satisfy my</p>
-            <div class="about-innfo-container">
-                <!--.about-info*4>h4.info-title+p.info-descriptio-->
-                <div class="about-info">
-                    <h4 class="info-title">Name : Jakiya Akter</h4>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">Age : 18</h4>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">Education: HSC</h4>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">Date of birth : 11/01/2006</h4>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">From : Bangladesh</h4>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">Blood group : O+</h4>
-                </div>
-        </section>
+      </nav>
+      <div class="container text-center ">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 bg-
+          ">
+          <h3>Hello, I'am Jakiya Akter</h3>
+          <p> I'm a Web Designer & Developer with over 2 years of experience. Experienced with all stages of the development.I am expart in HTML,CSS,JAVASCRIPT,BOOTSTRAP and others.</p>
+          <button type="button" class="btn btn-primary">GET START</button>
+          <button type="button" class="btn btn-outline-primary">Download CV <i class="fa-solid fa-download"></i></button>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-light
+          ">
+            <img src="IMAGE/main.jpg" alt="">
+          </div>
+          
+        </div>
+      </div>
+      
 
-        <!--what I do section start -->
-        <section>
-            <h3 class="section-title">What I do</h3>
-            <p id="what-I-do-description " class="section-description">Hello,I am Jakiya Akter,I am a web developer with 3 years of experience in Html,css,javaScript,bootstrap.I am always delover poject on time.I will give 100% effort to satisfy my</p>
-            <div class="skills-container">
-                <!-- .skills*4>img+h3.skill-title+p.skill-description -->
-                <div class="skill">
-                    <img src="IMAGE/js.jpg" alt="">
-                    <h3 class="skill-title">JavaScript</h3>
-                    <p class="skill-description">Hello,I am Jakiya Akter,I am a web developer with 3 years of experience in Html,css,javaScript,bootstrap.I am always delover poject on time.I will give 100% effort to satisfy my</p>
-                </div>
-                <div class="skill">
-                    <img src="IMAGE/node js.jpg" alt="">
-                    <h3 class="skill-title">Node js</h3>
-                    <p class="skill-description">Hello,I am Jakiya Akter,I am a web developer with 3 years of experience in Html,css,javaScript,bootstrap.I am always delover poject on time.I will give 100% effort to satisfy my</p>
-                </div>
-                <div class="skill">
-                    <img src="IMAGE/CSS/mongo.png"> 
-                    <h3 class="skill-title">MongoDB</h3>
-                    <p class="skill-description">Hello,I am Jakiya Akter,I am a web developer with 3 years of experience in Html,css,javaScript,bootstrap.I am always delover poject on time.I will give 100% effort to satisfy my</p>
-                </div>
-                <div class="skill">
-                    <img src="IMAGE/CSS/react.png"> 
-                    <h3 class="skill-title">React</h3>
-                    <p class="skill-description">Hello,I am Jakiya Akter,I am a web developer with 3 years of experience in Html,css,javaScript,bootstrap.I am always delover poject on time.I will give 100% effort to satisfy my</p>
-                </div>
+<div class="container text-center">
+    <div class="row text-start ">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <h1>2</h1>
+           
+        </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+      <p>From beginning ideas to individual integrity, rich identity from the line on the paper to final projects.
+      </p>     
+      </div>
+      <div class="container text-center">
+        <div class="row text-start ">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
             </div>
-        </section>
-        <!--Resume Section-->
-        <section>
-            <h3 class="section-title">A summary of my resume</h3>
+          <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">    
+        </div>
 
-            <div class="resume-contaier">
-                <!-- .resum-column*2>h3.resume-column-title -->
-                <div class="resum-column">
-                    <h3 class="resume-column-title">My Education:</h3
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">*Master in Computer Scince</h2>
-                        <h3 class="resume-item-institute">*Dhaka University / 2017 - 2019</h3>
-                        <p class="resume-item-description">List skill : You can change the icon above to any of the 1700+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.
-                        </p>
+        <div class="container py-5">
+          <div class="d-flex justify-content-between">
+            <h1>Years Experience</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card" style="width: 22rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text"> Provide our customers with optimized user-friendly experience to increase the efficiency of digital products. </p>
+                  <a href="#" class="btn btn-primary">+</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+              <div class="card" style="width: 22rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Mobile app design</h1>
+                  <p class="card-text">  Mobile application development is a highlight that businesses are interested in at the moment and in the future.
+                  </p>
+                  <a href="#" class="btn btn-primary">+</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 22rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title">Branding</h1>
+              <p class="card-text"> Understanding the business and their target customers, I’m the bridges to bring the brand closer to their clients. </p>
+              <a href="#" class="btn btn-primary">+</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="container text-center">
+  <div class="row text-start ">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <h1>Awards</h1>
+         </div>
+    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+    <p>Professional awards I’ve reached during my working times.</p>     
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">APR 2019</h5>
+        <img src="IMAGE/award-01.png" alt="">
+        <h1 class="card-subtitle mb-2 text-body-secondary">Site of the year 2019</h1>
+        <p class="card-text">For minimal and elegant premium branding design package.</p>
+        <a href="#" class="card-link">See Project </a>
+      </div>
+    </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">May 2018</h5>
+          <img src="IMAGE/award-02.png" alt="">
+          <h1 class="card-subtitle mb-2 text-body-secondary">1st Winner creative Design Championship</h1>
+          <p class="card-text">For most favorited design voted by NY City Style customers.</p>
+          <a href="#" class="card-link">See Project </a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Sep 2015</h5>
+          <img src="IMAGE/award-03.png" alt="">
+          <h1 class="card-subtitle mb-2 text-body-secondary">Best 5 Branding Project of nominations</h1>
+          <p class="card-text">For best creative & usable health care mobile app design.</p>
+          <a href="#" class="card-link">See Project </a>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row text-start ">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+              <div class="container py-5">
+                <div class="d-flex justify-content-between">
+                </div>
+              <h1>Experience</h1>
+                </div>
+                
+                <div class="container text-center">
+                  <div class="row text-start ">
+                      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <h1>2013-2019
+                          Facebook</h1>
+                         </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                      <div class="row text-center ">
+                      </div>
+                    <p>Senior product designer</p>     
                     </div>
-                </div>
-            </div>
-            <div class="Download-cv">
-                <button class="btn-primary"><i class="fa-solid fa-download"></i>Download-cv</button>
-            </div>
-        </section>
-    </main>
-    <!--footer-->
-    <footer>
-        <div class="footer-column">
-            <h3 class="section-title">Lets Contact</h3>
-            <p class="section-description">Please fill out the from on this section to contact with me or call between 9:00 A.M and 11:00 P.M ET,Monday trough Friday.</p>
-            <div class="Social-links">
-                <a href="#"><img src="IMAGE/CSS/facebook.png" alt=""></a>
-                <a href="#"></a><img src="IMAGE/CSS/insta.jpg" alt=""></a>
-                <a href="#"></a><img src="IMAGE/CSS/twitter.png" alt=""></a>
-            </div>
-        </div>
-        <div class="footer-column">
-            <h3 class="section-title">Let's Message me. Right Now.</h3>
-            <form class="contact" action="">
-                <input type="text" placeholder="Your Name:">
-                <input type="email" name="" placeholder="Your Email:" id="">
-                <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
-                <input class="btn-primary" type="submit" value="Submit">
-            </form>
-        </div>
-    </footer>
-</body>
+  
 
-</html>
+
+                
+      
+
+
+
+
+      
+
+      
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+  
